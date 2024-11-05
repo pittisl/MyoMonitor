@@ -15,7 +15,7 @@ with muscle workout.
 
 * `App Usage.pdf`: The usage of Android App.
 
-## Files under `muscle_v31` directory
+### Files under `muscle_v31` directory
 
 These files process the collected data for fatigue
 detection and classification.
@@ -32,7 +32,7 @@ detection and classification.
 * `accData/` dir: Sample input data to be processed by `accProcess.m`.
 * `.mat` files: Workspace variables to be loaded.
 
-## Files under `muscle_v1` directory
+### Files under `muscle_v1` directory
 
 * `CircleFit.m`: Function used by `ModifiedMTI.m`.
 * `curveSearch.m`: Function used by `singnalProcessMulti.m`.
@@ -48,7 +48,7 @@ detection and classification.
 * `signalGeneration.m`: Generate audio signal for the experiment.
 * `.mat` files: Workspace variables to be loaded by `signalProcess.m`.
 
-## Other files
+### Other files
 
 * `muscleInfoReadback_script.m`: Process PCM audio data collected from the phone.
 * `kmeans_weight.m`: calculate k-means clustering for single muscle workout.
