@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyoTester</string>
+    <string name="welcomeMessage">Ready for workout?</string>
+    <string name="welcomeButton">I\'m Ready!</string>>
+    <string name="measureStartButton">Start</string>>
+    <string name="measureStopButton">Stop</string>>
+    <string name="measureResumeButton">Cont</string>>
+    <string name="textMeasure">Press Demo-run to check the protocol, OR press START (Volume Up) button
+        to begin a group of tests</string>
+    >
+    <string name="textMeasure_stop">Press STOP (Volume Down) button when getting fatigue</string>>
+    <string name="testRunMessage">Please check the protocol</string>>
+    <string name="countLabel">Current workout count:</string>>
+    <string name="savedWorkoutCount">Saved workout count: </string>>
+    <string name="DemoRunButton">Demo-run</string>>
+    <string name="protoWait">(Wait to begin)\nProtocol instructions will appear here</string>>
+    <string name="protoSteady">Please be steady for 3s</string>>
+    <string name="protoUp">Please put the weight UP in 2s</string>>
+    <string name="protoHold">Please hold the weight for 3s</string>>
+    <string name="protoDown">Please put the weight DOWN in 2s</string>>
+    <string name="protoRelax">Please relax and prepare for next workout</string>>
+    <string name="stopFlagMessage">The test will stop...</string>>
+    <string name="InfoLabel">Information</string>>
+    <string name="ConfirmLabel">Confirm</string>>
+    <string name="nameLabel">First Name</string>>
+    <string name="armLabel">Arm</string>>
+    <string name="groupLabel">Group #</string>>
+    <string name="weightLabel">Dumbbell (lbs.)</string>>
+    <string name="textResults">You\'re done for this group!\nPlease relax for a while</string>
+    >
+    <string name="textResultsDone">You\'re done for all groups!</string>>
+    <string name="textReminder">Please come back for next group at:</string>>
+    <string name="workoutCntLabel">workouts were made this time!</string>>
+</resources>

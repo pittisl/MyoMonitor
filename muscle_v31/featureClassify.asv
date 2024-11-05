@@ -1,0 +1,11 @@
+% This is to classify fatigue
+% This has to use the data collected by MyoTester App
+function featureClassify(features)
+    %% kmeans
+    numOfObservations = size(features, 1);
+    feedIndices = zeros(1, numOfObservations);
+    for i = 1:ceil(numOfObservations/2)
+        feedIndices(i) = i;
+        feedIndices(i)
+    end
+end
