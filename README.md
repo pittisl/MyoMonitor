@@ -26,13 +26,10 @@ detection and classification.
 * `featureExtraction.m`: Extract features from raw channel estimation.
 * `preprocessing.m`: Preprocessing of received data by computing its channel estimation.
 * `ReadAudioFile.m`: Script to read audio file to MATLAB data format.
-* `sumDistanceFunc.m`: Function used by preprocessing.m, compute the sum distance of a complex data array to the centroid.
-
+* `sumDistanceFunc.m`: Function used by `preprocessing.m`, compute the sum distance of a complex data array to the centroid.
 * `audioFeatureExtraction/` dir: third-party MATLAB library to provide some audio feature extraction functionalities.
-
 * `accProcess.m`: Process accelerometer data collected during experiment.
 * `accData/` dir: Sample input data to be processed by `accProcess.m`.
-
 * `.mat` files: Workspace variables to be loaded.
 
 ## Files under `muscle_v1` directory
@@ -45,13 +42,10 @@ detection and classification.
 * `sumDistanceFunc.m`: (duplicate file, see above)
 * `ReadAudioFile.m`: (duplicate file, see above)
 * `ORM.m`, `ORM_windowd.m`: Remove outliers in the fatigue data.
-
 * `EMG/` dir: Sample of collected raw EMG signals.
 * `transPointsIdentifyEMG.m`: Identify the transition point for EMG signal.
 * `plotEMG.m`, `plotBothMulti.m`, and related file: plot collected EMG signals.
-
 * `signalGeneration.m`: Generate audio signal for the experiment.
-
 * `.mat` files: Workspace variables to be loaded by `signalProcess.m`.
 
 ## Other files
